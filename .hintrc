@@ -1,0 +1,38 @@
+{
+  "extends": [
+    "development"
+  ],
+  "hints": {
+    "compat-api/html": [
+      "default",
+      {
+        "ignore": [
+          "meta[name=theme-color]"
+        ]
+      }
+    ],
+    "compat-api/css": [
+      "default",
+      {
+        "ignore": [
+          "text-align: -webkit-match-parent"
+        ]
+      }
+    ],
+    "css-prefix-order": "off"
+  },
+  "browserslist": [
+    "defaults",
+    "not ie 11",
+    "not ios_saf <= 12.5",
+    "not firefox <= 115",
+    "not safari <= 16.5",
+    "not and_ff <= 115",
+    "not and_chr <= 114",
+    "not chrome <= 115",
+    "not edge <= 114",
+    "not ios_saf <= 16.5",
+    "not opera <= 100",
+    "not samsung <= 21"
+  ]
+}
